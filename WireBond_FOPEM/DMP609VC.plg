@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DMP609VC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\abc\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/DMP609VC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\abc\My Documents\DMP609文件\DMP609VC例程\DMP609VCDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\abc\LOCALS~1\Temp\RSP10.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DMP609VC.pdb" /debug /machine:I386 /out:"Debug/DMP609VC.exe" /pdbtype:sept  ".\Debug\DMP609VC.obj" ".\Debug\DMP609VCDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\DMP609VC.res" "
+<h3>Output Window</h3>
+Compiling...
+DMP609VCDlg.cpp
+c:\documents and settings\abc\my documents\dmp609文件\dmp609vc例程\dmp609dll.h(35) : warning C4076: 'unsigned' : can not be used with type 'float'
+C:\Documents and Settings\abc\My Documents\DMP609文件\DMP609VC例程\DMP609VCDlg.cpp(405) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Documents and Settings\abc\My Documents\DMP609文件\DMP609VC例程\DMP609VCDlg.cpp(407) : warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+C:\Documents and Settings\abc\My Documents\DMP609文件\DMP609VC例程\DMP609VCDlg.cpp(421) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/DMP609VC.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\DMP609VC.sbr" ".\Debug\DMP609VCDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DMP609VC.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
